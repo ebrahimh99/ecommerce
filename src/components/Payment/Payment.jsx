@@ -55,7 +55,7 @@ const Payment = () => {
             }
         }
         try {
-            const {data} = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://ebrahimh99.github.io/ecommerce-app2/#/`,
+            const {data} = await axios.post(`https://ecommerce.routemisr.com/api/v1/orders/checkout-session/${cartId}?url=https://ebrahimh99.github.io/ecommerce/#/`,
                 cashOrderObject,
 
                 {
